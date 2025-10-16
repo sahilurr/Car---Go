@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Rent a Ride
 
@@ -133,3 +134,6 @@ A full-scale Car Rental Platform with user, admin, and vendor modules, designed 
 
 
 
+=======
+# rentaridenew
+>>>>>>> 7c8373e23d0bc6de92ff320525ff89daa41a400a
