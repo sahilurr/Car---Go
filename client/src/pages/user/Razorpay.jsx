@@ -84,7 +84,7 @@ export async function displayRazorpay(values, navigate, dispatch) {
       key: import.meta.env.RAZORPAY_KEY_ID,
       amount: amount.toString(),
       currency: currency,
-      name: "Rent a Ride",
+      name: "Car Go",
       description: "Test Transaction",
       order_id: id,
       handler: async function (response) {
