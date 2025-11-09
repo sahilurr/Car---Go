@@ -5,34 +5,44 @@ import { errorHandler } from "../../utils/error.js";
 
 const dummyData = [
 
-    //kochi
-    { id: uuidv4(), district: 'Kochi', location: 'kalamassery : skoda service', type: 'location' },
-    { id: uuidv4(), district: 'Kochi', location: 'kalamassery : volkswagen', type: 'location' },
-    { id: uuidv4(), district: 'Kochi', location: 'cheranallur : volkswagen', type: 'location' },
 
-    //kottayam
 
-    { id: uuidv4(), district: 'Kottayam', location: 'ettumanoor : skoda service', type: 'location' },
-    { id: uuidv4(), district: 'Kottayam', location: 'kottayam : railway station', type: 'location' },
-    { id: uuidv4(), district: 'Kottayam', location: 'thellakom : volkswagen', type: 'location' },
+  // ----------- ODISHA (ROURKELA + OTHER CITIES) -----------
+  { id: uuidv4(), district: "Rourkela", location: "sector-1 : nit main gate", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "chhend colony : nit square", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "udit nagar : market", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "civil township : daily market", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "basanti colony : igh hospital area", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "bondamunda : railway junction", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "vedvyas : bridge & temple", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "kalunga : industrial estate", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "kuarmunda : chowk", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "biramitrapur : bus stand", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "rajgangpur : main market", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "jhirpani : railway halt", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "rourkela : railway station", type: "location" },
+  { id: uuidv4(), district: "Rourkela", location: "rourkela : airport", type: "location" },
 
-    //trivandrum
+  { id: uuidv4(), district: "Bhubaneswar", location: "pokhariput : biju patnaik international airport", type: "location" },
+  { id: uuidv4(), district: "Bhubaneswar", location: "saheed nagar : esplanade mall", type: "location" },
 
-    { id: uuidv4(), district: 'Trivandrum', location: 'Nh 66 bybass : kochuveli railway station', type: 'location' },
-    { id: uuidv4(), district: 'Trivandrum', location: 'tampanur : central railway station', type: 'location' },
-    { id: uuidv4(), district: 'Trivandrum', location: 'kazhakootam : railway station', type: 'location' },
+  { id: uuidv4(), district: "Cuttack", location: "badambadi : bus stand", type: "location" },
+  { id: uuidv4(), district: "Cuttack", location: "barabati : stadium", type: "location" },
 
-    //thrissur
-    { id: uuidv4(), district: 'Thrissur', location: 'thrissur : railway station', type: 'location' },
-    { id: uuidv4(), district: 'Thrissur', location: 'valarkavu : near ganam theater', type: 'location' },
-    { id: uuidv4(), district: 'Thrissur', location: 'paliyekara : evm mg', type: 'location' },
-    
+  { id: uuidv4(), district: "Sambalpur", location: "khetrajpur : railway station", type: "location" },
 
-    //calicut
-    { id:uuidv4() , district: 'Calicut', location: 'calicut : railway', type: 'location' },
-    { id: uuidv4(), district: 'Calicut', location: 'calicut : airport', type: 'location' },
-    { id: uuidv4(), district: 'Calicut', location: 'pavangad : evm nissan', type: 'location' },
-    
+  { id: uuidv4(), district: "Jharsuguda", location: "durlaga : vss airport", type: "location" },
+
+  { id: uuidv4(), district: "Puri", location: "bada danda : jagannath temple", type: "location" },
+
+  { id: uuidv4(), district: "Balasore", location: "fm college road : railway station", type: "location" },
+
+  { id: uuidv4(), district: "Berhampur", location: "berhampur : railway station", type: "location" },
+
+  { id: uuidv4(), district: "Angul", location: "nalco nagar : township", type: "location" },
+
+  { id: uuidv4(), district: "Keonjhar", location: "jhanda bazar : market", type: "location" },
+
 
     //cars
 

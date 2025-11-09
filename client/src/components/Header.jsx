@@ -20,7 +20,7 @@ function Header() {
         <div
           className={` text-[16px] md:text-[18px] lg:text-[20px] font-poppins font-bold`}
         >
-          Rent a Ride
+          Car Go
         </div>
       </Link>
 

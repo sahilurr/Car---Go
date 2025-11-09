@@ -16,7 +16,7 @@ export const products = [
   {
     title: "",
     link: "https://userogue.com",
-    thumbnail: "https://evmwheels.com/front-theme/images/Group%20316.png",
+    thumbnail: "https://shop99india.com/wp-content/uploads/2024/09/Bike-and-Car-Rentals-Near-Me.jpg",
   },
 
   {
