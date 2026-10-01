@@ -134,6 +134,8 @@
 
 ## 📁 Project Structure
 
+For diagrams of the system, data model, API surface and key flows, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ```text
 ├── backend/
 │   ├── controllers/      # Business logic for all roles
